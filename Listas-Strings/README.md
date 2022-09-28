@@ -47,3 +47,45 @@ Input Ej: a b c
           1 2 0
 Output Ej: ["c","a","b"] 
 ```
+
+### Ejercicio 4: Palabras equilibradas
+
+> Parte A
+
+Una palabra equilibrada es aquella que tiene tantas consonantes como vocales, como por ejemplo:
+* Roja
+* Morado
+* Tapo
+
+De igual manera existen palabras que son semi-equilibradas que son aquellas palabras que tienen una consonante más que vocales y vice versa, como por ejemplo:
+* Tapiz
+* araña
+* computadoRa
+
+Y finalmente las palabras que no sean ni equilibradas ni semi-equilibradas, se consideran no equilibradas:
+* zapaTillas
+* HelicopTeroS
+* Etc
+
+
+Para ello se le solicita escribir una funcion que reciba como parámetro una palabra y retorne si esta es `Equilibrada`, `Semi-Equilibrada` o `No Equilibradas`.
+
+> Parte B
+
+Por otro lado, podemos extender esto a palabras `k-equilibradas`, estas son palabras que cumplen que si al separarla cada k posiciones, todas sus porciones forman palabras equilibradas.
+
+Una palabra se considera `semi-k-equilibrada` si no es k-equilibrada y al separarla cada k posiciones, todas sus porciones forman palabras equilibradas o semi-equilibradas.
+
+Por último, una palabra que no sea k-equilibrada ni semi-k-equilibrada se considera `no-k-equilibrada`.
+
+Por ejemplo:
+
+* La palabra `siesta` es k-equilibrada cuando k vale 2, ya que se separa en las palabras si-es-ta, y todas estas palabras son equilibradas.
+* La palabra `siesta` es semi-k-equilibrada cuando k vale 3, ya que se separa en las palabras sie-sta, y todas estas palabras son semi-equilibradas.
+* La palabra `siesta` es k-equilibrada cuando k vale 4, ya que se separa en las palabras sies-ta, y todas estas palabras son equilibradas.
+* La palabra `baile` es semi-k-equilibrada cuando k vale 2, ya que se separa en las palabras ba-il-e, ba e il son equilibradas, pero la palabra e es semi-equilibrada.
+* La palabra `instrumento` es no-k-equilibrada cuando k vale 5, ya que se separa en las palabras instr-ument-o, como instr es no equilibrada, entonces inmediatamente la palabra es no-k-equilibrada.
+
+
+En esta parte debes implementar la función kequilibrada(palabra, k), la cual recibe como parámetro un string palabra y un entero k, retorna el string "k-equilibrada" si la palabra es k-equilibrada, el string "semi-k-equilibrada" si la palabra es semi-k-equilibrada y el string "no-k-equilibrada" si la palabra es no-k-equilibrada.
+
