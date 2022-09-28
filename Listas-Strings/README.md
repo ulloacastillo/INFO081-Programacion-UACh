@@ -50,7 +50,7 @@ Output Ej: ["c","a","b"]
 
 ### Ejercicio 4: Palabras equilibradas
 
-> Parte A
+### Parte A
 
 Una palabra equilibrada es aquella que tiene tantas consonantes como vocales, como por ejemplo:
 * Roja
@@ -70,7 +70,7 @@ Y finalmente las palabras que no sean ni equilibradas ni semi-equilibradas, se c
 
 Para ello se le solicita escribir una funcion que reciba como parámetro una palabra y retorne si esta es `Equilibrada`, `Semi-Equilibrada` o `No Equilibradas`.
 
-> Parte B
+### Parte B
 
 Por otro lado, podemos extender esto a palabras `k-equilibradas`, estas son palabras que cumplen que si al separarla cada k posiciones, todas sus porciones forman palabras equilibradas.
 
