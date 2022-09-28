@@ -6,7 +6,7 @@
 * Semana 1: [Listas y Strings](https://github.com/ulloacastillo/INFO081-Programacion-UACh/tree/main/Listas-Strings)
 
 ### 🧍 Ayudantes
-* Luis Llanca Nahuelcheo
-* Jorge Ulloa Castillo
+* Luis Llanca Nahuelcheo 🎤 Discord : Llanking#1454 ✉ Correo : luis.llanca@alumnos.uach.cl
+* Jorge Ulloa Castillo 🎤 Discord : IL Tallo#4237 ✉ Correo : jorge.ulloa01@alumnos.uach.cl
 
 
