@@ -19,17 +19,18 @@ el número del dia en el cual se vió al impostor se debe buscar en los mensajes
 
 Input
 ```
-Ej Primer Chat: 5
+Ej Primer Chat:   5
                   Rojo: yo no fui
                   Verde: quien fue ?
                   Azul: yaaaa po cabros
                   Morado: Hola
                   Naranjo: Yo soy el impostor
+                  
  Ej Segundo Chat: 4
-                  Rojo: yo vi al Azul en el 11 ! Ojo con el !
-                  Verde: Nop, Rojo estaba en el pasillo 10
+                  Rojo: yo vi al Azul el día 11 ! Ojo con el !
+                  Verde: Nop, Rojo estaba en el pasillo el dia 10
                   Naranjo: Que se sho
-                  Morado: Naranjo estaba en el 4
+                  Morado: Naranjo estaba en el super el dia 4
 ```
 Output
 ```
