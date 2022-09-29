@@ -1,28 +1,32 @@
-from curses.ascii import isdigit
+n_chats1 = int(input())
 
+for i in range(n_chats1):
+    msg = input()
+    
+    # opcion uno
+    persona, texto = msg.split(": ")
+    if texto.lower().find("yo no fui") != -1:
+        impostor = persona
+        
+    # opcion dos
+    '''
+    lista_mensaje = msg.split(": ")
+    if "yo no fui" in lista_mensaje[1].lower():
+        impostor = lista_mensaje[0]
+    '''
 
-n_lineas_primer_chat = int(input("Ingrese numero de lineas: "))
-msg_primer_chat = []
-for i in range(n_lineas_primer_chat):
-    msg = input("Ingrese mensaje: ")
-    msg_primer_chat.append(msg)
-n_lineas_segundo_chat = int(input("Ingrese numero de lineas: "))
-msg_segundo_chat = []
-for i in range(n_lineas_segundo_chat):
-    msg = input("Ingrese mensaje: ")
-    msg_segundo_chat.append(msg)
-culpable = ""
-for mensaje in msg_primer_chat:
-    usuario,msg = mensaje.split(": ")
-    if "yo no fui" in msg:
-        culpable = usuario
-dia = ""
-for mensaje in msg_segundo_chat:
-    usuario,msg = mensaje.split(": ")
-    if culpable in msg:
-        lista_msg = msg.split(" ")
-        for msg_sep in lista_msg:
-            if msg_sep.isdigit():
-                dia = msg_sep
+n_chats2 = int(input())
 
-print(f"El impostor es {culpable} y fue visto por última vez en el día {dia}")
+for i in range(n_chats2):
+    msg = input()
+    
+    persona, texto = msg.split(": ")
+    
+    if impostor in texto:
+        palabras_mensaje = texto.split(" ")
+        
+        for palabra in palabras_mensaje:
+            if palabra.isdigit():
+                dia = palabra
+            
+print(f"El impostor es {impostor} y fue visto por última vez en el día {dia}")
