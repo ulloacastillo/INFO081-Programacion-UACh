@@ -32,8 +32,8 @@ Ejemplo entrada/salida
 Input:
 QAT: 1,15,18,19
 ECU: 5,11,12
-POR:17
-BRA:9,10
+POR: 17
+BRA: 9,10
 
 ECU
 ```
