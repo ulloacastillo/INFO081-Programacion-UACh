@@ -2,7 +2,7 @@
 
 ### 1⃣ Ejercicio 1
 
-Cree un algoritmo, sin ultilziar un for anidado que dada una lista unidimensional, tenga como salida todos los elementos y la cantidad de veces que cada uno se repite. Por ejemplo.
+Cree un algoritmo, sin utilizar un for anidado que dada una lista unidimensional, tenga como salida todos los elementos y la cantidad de veces que cada uno se repite. Por ejemplo.
 
 ```
 Input:
