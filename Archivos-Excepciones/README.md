@@ -3,9 +3,9 @@ Se reciben n lineas en un archivo de texto. Cada linea consta de k numeros separ
 Formula de la sucesión de fibonacci: Fib n = Fib n-1 + Fib n-2 con Fib 0 = 1 Fib 1 = 1
 
 Input:
-  1,2,5,10,15
-  9,2,7,1  
+  1,2,b,5,a,10,15
+  9,2,7,1,z  
   
 Output:
-  La línea 1 tiene mayor porcentaje de numeros de fibonacci. La razón es: 0.6
+  La línea 1 tiene mayor porcentaje de numeros de fibonacci. La razón es: 0.6 y tiene 2 excepciones.
 
