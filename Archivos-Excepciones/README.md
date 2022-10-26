@@ -4,7 +4,8 @@ Formula de la sucesión de fibonacci: Fib n = Fib n-1 + Fib n-2 con Fib 0 = 1 Fi
 
 Input:
   1,2,5,10,15
-  9,2,7,1
+  9,2,7,1  
+  
 Output:
   La línea 1 tiene mayor porcentaje de numeros de fibonacci. La razón es: 0.6
 
