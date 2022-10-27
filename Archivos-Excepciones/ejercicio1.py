@@ -1,15 +1,16 @@
-def listaFibonacci(numero):
+def listaFibonacci(numero): #a esta funcion se le debe pasar el numero mas grande dentro de una linea de texto
+                            #para que genere una lista con los numeros de fibonacci hasta ese numero
     listafibonacci = [1,1]
     while listafibonacci[len(listafibonacci)-1] < numero:
         listafibonacci.append(listafibonacci[len(listafibonacci)-1] + listafibonacci[len(listafibonacci)-2])
-    return listafibonacci
+    return listafibonacci 
 
-archivo = open("Archivos-Excepciones/ejercicio1.txt","r")
+archivo = open("Archivos-Excepciones/ejercicio1.txt","r") 
 lineas = archivo.readlines()
-max_porcentaje = 0
+max_porcentaje = 0 #se inicia variable para guardar el numero mas grande (nums fib/numeros_linea)
 linea_max = 0
 n_excepts_max = 0
-for i,linea in enumerate(lineas):
+for i,linea in enumerate(lineas): 
     numeros = linea.split(",")
     numeros_int = []
     n_excepts = 0
