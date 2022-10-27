@@ -1,0 +1,7 @@
+Bulbasaur,Grass,49,49,45,0
+Ivysaur,Grass,62,63,60,0
+Venusaur,Grass,82,83,80,0
+Mewtwo,Psiquico,-,-,-,1
+Charmander,Fuego,39,52,43,0
+Ho-oh,Fuego,106,130,90,1
+Mudkip,Agua,50,70,50,0
