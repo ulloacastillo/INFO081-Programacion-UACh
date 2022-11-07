@@ -9,3 +9,14 @@
 [1,2,3,0,5]
 5.2
 ```  
+#### 2. Se recibe una lista, se debe ordenar y luego buscar un elemento en la lista recursivamente con la siguiente estrategia.
+```  
+1. Si el elemento de la mitad de la lista es el elemento a buscar retornar True.
+2. Si el elemento es menor que el elemento de la mitad de la lista entonces buscar en una nueva lista desde el primer elemento hasta el elemento de la mitad de la lista.  
+3. Si el elemento es mayor hacer lo mismo que el paso 2 pero esta vez del elemento de la mitad de la lista hasta el último.
+```
+```
+[1,2,3,4,5] , 5  
+True
+```
+
