@@ -18,5 +18,21 @@
 ```
 [1,2,3,4,5] , 5  
 True
+```  
+#### 3. Programar de forma recursiva la suma de 1 hasta un número n.
 ```
+5
+15
+```  
+#### 4. Mezclar dos listas ordenadas de forma recursiva de tal manera que la lista resultante esté también ordenada.  
+```
+[-1,4,10],[2,3,7]  
+[-1, 2, 3, 4, 7, 10]
+```  
+#### 5. Programar la función range de Python recursivamente con dos argumentos (número inicial y número final).  
+```
+4,10
+[4,5,6,7,8,9,10]
+```
+##### Desafío, implementar el tercer argumento de salto.
 
