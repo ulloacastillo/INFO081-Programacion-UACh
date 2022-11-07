@@ -1,4 +1,7 @@
 ## Ejercicios Recursividad  
+### Los ejercicios están ordenados de forma creciente en términos de dificultad (al menos para nosotros). Recordar todo lo que hemos visto  
+###### Puede que tengan que usar excepciones
+
 #### 1. Programar la función range de Python recursivamente con dos argumentos (número inicial y número final).  
 ```
 4,10
