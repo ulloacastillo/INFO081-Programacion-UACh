@@ -7,6 +7,8 @@
 4,10
 [4,5,6,7,8,9,10]
 ```
+##### Desafío, implementar el tercer argumento de salto.  
+
 #### 2. Programar de forma recursiva la suma de 1 hasta un número n.
 ```
 5
@@ -40,8 +42,6 @@ True
 5.2
 ```  
 
-
-##### Desafío, implementar el tercer argumento de salto.
 
 #### 6. Programe una función recursiva que retorne la cantidad de combinaciones correctas para devolver un vuelto dada una lista (con los valores de monedas a utilizar) y el vuelto.   
 ```  
