@@ -43,7 +43,7 @@ True
 ```  
 
 
-#### 6. Programe una función recursiva que retorne la cantidad de combinaciones correctas para devolver un vuelto dada una lista (con los valores de monedas a utilizar) y el vuelto.   
+#### 6.(Ejercicio díficil) Programe una función recursiva que retorne la cantidad de combinaciones correctas para devolver un vuelto dada una lista (con los valores de monedas a utilizar) y el vuelto.   
 ```  
 [1,10,50,100],1000
 4246
