@@ -64,7 +64,31 @@ Salida
 4
 ```
 
-#### 5. Se recibe una lista, se debe ordenar y luego buscar un elemento en la lista recursivamente con la siguiente estrategia.
+#### 5. Implemente la función recursiva `invertir(lista)` que reciba una lista y retorne otra lista con los elemtentos invertidos.
+
+Ejemplo 
+```
+print(invertir([1, 2, 3, 4, 9]))
+```
+
+Salida
+```
+[9, 4, 3, 2, 1]
+```
+
+#### 6. Cree una función recursiva `zip(lista1, lista2)` que dada dos lista del mismo largo, retorne una lista de tuplas, donde cada tupla contiene un elemento de cada elemento de la lista.
+
+Ejemplo 
+```
+print(zip(["nombre", "apellido", "direccion", "carrera", "edad"], ["Luis", "Perez", "UACh", "Informatica", "19"]))
+```
+
+Salida
+```
+[("nombre", "Luis"), ("apellido", "Perez"), ("direccion", "UACh"), ("Carrera, "Informatica"), ("edad", 19)]
+```
+
+#### 7. Se recibe una lista, se debe ordenar y luego buscar un elemento en la lista recursivamente con la siguiente estrategia.
 ```  
 1. Si el elemento de la mitad de la lista es el elemento a buscar retornar True.
 2. Si el elemento es menor que el elemento de la mitad de la lista entonces buscar en una nueva lista desde el primer elemento hasta el elemento de la mitad de la lista.  
@@ -74,14 +98,14 @@ Salida
 [1,2,3,4,5] , 5  
 True
 ``` 
-#### 6. Mezclar dos listas ordenadas de forma recursiva de tal manera que la lista resultante esté también ordenada.  
+#### 8. Mezclar dos listas ordenadas de forma recursiva de tal manera que la lista resultante esté también ordenada.  
 ```
 [-1,4,10],[2,3,7]  
 [-1, 2, 3, 4, 7, 10]
 ```  
 
 
-#### 7. Programar una función recursiva que multiplique el primer y el último elemento de una lista, luego esto sumarlo con el mismo procedimiento aplicado a la lista resultante después de retirar los elementos anteriormente multiplicados.  
+#### 9. Programar una función recursiva que multiplique el primer y el último elemento de una lista, luego esto sumarlo con el mismo procedimiento aplicado a la lista resultante después de retirar los elementos anteriormente multiplicados.  
 ```
 [1,2,3,0,5]
 8
@@ -93,7 +117,7 @@ True
 ```  
 
 
-#### 8.(Desafio) Programe una función recursiva que retorne la cantidad de combinaciones correctas para devolver un vuelto dada una lista (con los valores de monedas a utilizar) y el vuelto.   
+#### 10.(Desafio) Programe una función recursiva que retorne la cantidad de combinaciones correctas para devolver un vuelto dada una lista (con los valores de monedas a utilizar) y el vuelto.   
 ```  
 [1,10,50,100],1000
 4246
