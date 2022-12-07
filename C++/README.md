@@ -35,3 +35,13 @@ capaz de realizar esta operación con la restricción de solo saber sumar.
 2 10  
 1024  
 ```
+
+#### Ejercicio 5:
+
+Create a function named Double to calculate the double of an integer number, and modify the data passed as an argument. It must be a void function and you must use refererence parameters.
+
+#### Ejercicio 6:
+Create a function named Swap to swap the values of two integer numbers, which are passed by reference.
+
+#### Ejercicio 7:
+Cree una funcion que dado un arreglo con valores, pasado por valor y otro arreglo pasado por referncia, guarde en el segundo arreglo los valores unicos
